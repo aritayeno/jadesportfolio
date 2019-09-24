@@ -1,0 +1,16 @@
+/* ------------------
+
+CSS TABLE OF CONTENTS
+
+# GLOBAL CSS   
+    # BODY
+    # TYPOGRAPHY
+    # LINKS
+
+-------------------*/
+/* BODY */
+body {
+    font-family: "acumin-pro", Helvetica, arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.85); }
