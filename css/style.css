@@ -10,7 +10,15 @@ CSS TABLE OF CONTENTS
 -------------------*/
 /* BODY */
 body {
-    font-family: "acumin-pro", Helvetica, arial, sans-serif;
+    font-family: 'canada-type-gibson', Helvetica, arial, sans-serif;
     font-size: 100%;
     line-height: 1.4;
     color: rgba(0, 0, 0, 0.85); }
+
+/* DEMO 
+.circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%; */
+}
