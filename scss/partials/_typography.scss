@@ -1,8 +1,101 @@
 /* BODY */
 
 body {
-    font-family: $body-fontfamily;
+    font-family: $nav-fontfamily;
+    font-weight: 700;
+    font-style: normal;
     font-size: 100%;
     line-height: 1.4;
     color: $color-text-body;
+}
+
+h1 {
+    font-family: $brand-fontfamily;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    margin-left: .5em;
+}
+
+h2 {
+    font-family: $brand-fontfamily;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.25em;
+}
+
+h3 {
+    font-family: $arttitle-fontfamily;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h4 {
+    font-family: $heading-fontfamily;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* LINKS */
+a {
+color: $color-nav;
+text-decoration: none;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+a:active {
+    font-style: italic;
+}
+
+.home {
+    overflow: hidden;
+    width: 100%;
+    h1 {
+        margin: 0;
+        line-height: 1;
+        font-size: 1em;
+    }
+    .firstname {
+        font-family: $brand-fontfamily;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3em;
+        margin-left: .5em;
+        color: $color-homebrand;
+
+        display: block;
+        // font-size: 20em;
+        font-size: 21vw;
+        // line-height: .43;
+        margin-left: 8.7vw;
+        margin-bottom: -5.5vw;
+        text-transform: lowercase;
+    }
+
+    .lastname {
+        font-family: $brand-fontfamily;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.25em;
+        color: $color-homebrand;
+        
+        display: block;
+        // font-size: 19em;
+        font-size: 19.3vw;
+        margin-left: -1.2vw;
+        text-transform: uppercase;
+    }
+}
+
+.about {
+    h4 {
+        color: $color-text-body;
+    }
+    h3 {
+        color: #8DAAE8;
+    }
+
 }

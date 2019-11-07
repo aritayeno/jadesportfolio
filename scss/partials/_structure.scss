@@ -1,0 +1,28 @@
+// Site Nav
+.site-nav {
+    a {
+      display: block;
+      padding: 1em;
+      
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        float: right;
+      }
+  }
+
+  .gallery-subnav {
+    a {
+      display: block;
+      padding: 1em;
+      
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        float: center;
+      }
+  }
