@@ -130,6 +130,13 @@ body {
   list-style: none;
   float: center; }
 
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 50px 50px;
+  -ms-grid-columns: auto auto auto;
+  grid-template-columns: auto auto auto; }
+
 .site-nav a {
   display: block;
   padding: 1em; }
