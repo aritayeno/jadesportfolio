@@ -28,6 +28,7 @@ h3 {
     font-family: $arttitle-fontfamily;
     font-weight: 800;
     font-style: normal;
+    font-size: 2em;
 }
 
 h4 {
@@ -94,8 +95,16 @@ a:active {
     h4 {
         color: $color-text-body;
     }
-    h3 {
+    .abouttitle {
+        font-family: $arttitle-fontfamily;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2em;
         color: #8DAAE8;
+        
+        display: block;
+        font-size: 30vw;
+        margin-right: 1vw;
     }
 
 }
