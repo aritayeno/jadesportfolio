@@ -75,7 +75,16 @@ a:active {
   color: black; }
 
 .about h3 {
-  color: #8DAAE8; }
+  font-family: "interstate-condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2em;
+  color: #8DAAE8;
+  
+  display: block;
+  font-size: 19.3vw;
+  margin-right: 1vw;
+}
 
 img {
   max-width: 100%;
@@ -84,6 +93,15 @@ img {
   border-radius: 4px;
   padding: 5px;
   width: 150px; }
+
+.background {
+  max-width: 100%;
+  height: auto;
+  border: 1px transparent #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
 
 * {
   -webkit-box-sizing: border-box;
