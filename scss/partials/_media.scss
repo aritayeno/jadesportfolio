@@ -7,6 +7,16 @@ img {
     width: 150px;
 }
 
+a{
+    cursor: pointer;
+  }
+  
+  img.image{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
 .background {
     max-width: 100%;
     height: auto;
@@ -15,3 +25,4 @@ img {
     padding: 5px;
     width: 150px;
 }
+

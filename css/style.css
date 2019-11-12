@@ -137,6 +137,9 @@ body {
   -ms-grid-columns: auto auto auto;
   grid-template-columns: auto auto auto; }
 
+#portfolio .mix {
+  display: none; }
+
 .site-nav a {
   display: block;
   padding: 1em; }
