@@ -37,37 +37,3 @@ button.active {
     font-style: bold;
 }
 
-/* Hover Styling */
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000;
-  }
-  .mix:hover .overlay{
-    opacity: .75;
-  }
-  
-  .hover-text{
-    color: #fff;
-    width: 100%;
-    font-family: 'adobe-garamond-pro';
-    font-style: italic;
-    font-weight: 600;
-    text-decoration: underline;
-    font-size: 24px;
-    position: absolute;
-    text-transform: capitalize;
-    text-align: center;
-    letter-spacing: 2px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-  }

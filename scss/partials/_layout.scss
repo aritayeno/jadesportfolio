@@ -32,41 +32,6 @@ body {
     -webkit-backface-visibiilty: hidden;
   }
 
-  .grid-container:after{
-    content: '';
-    display: inline-block;
-    width: 48%;
-  }
-  
-  .grid-container .mix,
-  .grid-container .gap{
-    display: inline-block;
-    width: 49%;
-  }
-  
-  .grid-container .mix{
-    position: relative;
-  }
-  
-  .grid-container .mix{
-    text-align: left;
-    margin-bottom: 0%;
+  #portfolio .mix {
     display: none;
   }
-  
-  .grid-container .mix:after{
-    content: attr(data-myorder);
-    color: white;
-    font-size: 16px;
-    display: none;
-    vertical-align: top;
-  /*  padding: 4% 6%; */
-    font-weight: 700;
-  }
-  
-  .grid-container .mix:before{
-    content: '';
-    display: none;
-   /* padding-top: 60%; */
-  }
-  

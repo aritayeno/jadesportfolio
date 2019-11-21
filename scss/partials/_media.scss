@@ -11,16 +11,14 @@ a{
     cursor: pointer;
   }
   
-  img.image{
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-.background {
+.background img{
     border: 1px transparent #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+    background-size: 200px 100px;
 }
 
+.mix img {
+
+}
