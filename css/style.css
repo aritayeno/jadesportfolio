@@ -85,21 +85,62 @@ a:active {
   font-size: 30vw;
   margin-right: 1vw; }
 
+.about p {
+  padding: 4%; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body, button {
+  font-family: "interstate-condensed", sans-serif; }
+
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 2%; }
+
+button.filter {
+  margin: 0px; }
+
+button {
+  font-family: "interstate-condensed", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000; }
+
+button.active {
+  font-style: bold; }
+
 img {
   max-width: 100%;
-  height: auto;
-  border: 1px transparent #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px; }
+  height: auto; }
 
-.background {
-  max-width: 100%;
-  height: auto;
+a {
+  cursor: pointer; }
+
+.background img {
   border: 1px transparent #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px; }
+  width: 150px;
+  background-size: 200px 100px; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -131,14 +172,35 @@ body {
   float: center; }
 
 .grid-container {
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 50px 50px;
-  -ms-grid-columns: auto auto auto;
-  grid-template-columns: auto auto auto; }
+  padding: 2% 2% 2%;
+  text-align: justify;
+  font-size: 0.1px;
+  -webkit-backface-visibiilty: hidden; }
 
-#portfolio .mix {
-  display: none; }
+#portfolio {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  #portfolio li {
+    list-style: none;
+    width: 23%;
+    margin: 1%; }
+  #portfolio a, #portfolio img {
+    display: block; }
+  #portfolio a {
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: -80%; }
+  #portfolio img {
+    -o-object-fit: fill;
+    object-fit: fill; }
 
 .site-nav a {
   display: block;
