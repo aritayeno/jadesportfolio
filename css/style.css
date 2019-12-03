@@ -82,8 +82,7 @@ a:active {
   font-size: 2em;
   color: #8DAAE8;
   display: block;
-  font-size: 30vw;
-  margin-right: 1vw; }
+  font-size: 30vw; }
 
 .about p {
   padding: 4%; }
@@ -135,19 +134,18 @@ img {
 a {
   cursor: pointer; }
 
-.background img {
-  border: 1px transparent #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
-  background-size: 200px 100px; }
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
   margin: 0; }
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  margin: 0px 15px 15px 0px; }
 
 .site-nav a {
   display: block;
@@ -176,6 +174,10 @@ body {
   text-align: justify;
   font-size: 0.1px;
   -webkit-backface-visibiilty: hidden; }
+
+.abouttitle {
+  position: absolute;
+  bottom: 0; }
 
 #portfolio {
   margin: 0;
