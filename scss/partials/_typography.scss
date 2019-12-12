@@ -94,6 +94,7 @@ a:active {
 .about {
     h4 {
         color: $color-text-body;
+        padding: 4%;
     }
     .abouttitle {
         font-family: $arttitle-fontfamily;
@@ -106,7 +107,9 @@ a:active {
         font-size: 30vw; 
     }
     p {
-        padding: 4%;
+        padding: 1vw;
+        max-width: 35em;
+        margin: 0;
     }
 
 }

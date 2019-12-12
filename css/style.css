@@ -73,7 +73,8 @@ a:active {
     text-transform: uppercase; }
 
 .about h4 {
-  color: black; }
+  color: black;
+  padding: 4%; }
 
 .about .abouttitle {
   font-family: "interstate-condensed", sans-serif;
@@ -85,7 +86,9 @@ a:active {
   font-size: 30vw; }
 
 .about p {
-  padding: 4%; }
+  padding: 1vw;
+  max-width: 35em;
+  margin: 0; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -198,6 +201,7 @@ body {
   justify-content: center; }
   #portfolio li {
     list-style: none;
+    overflow: hidden;
     width: 23%;
     margin: 1%; }
   #portfolio a, #portfolio img {
