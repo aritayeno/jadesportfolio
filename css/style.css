@@ -134,6 +134,12 @@ img {
 a {
   cursor: pointer; }
 
+.about-body {
+  background-image: url("../img/JadeBackgroundTogether.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 100%; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -225,9 +231,3 @@ body {
   display: flex;
   list-style: none;
   float: center; }
-
-.about-body {
-  background-image: url("../img/JadeBackgroundTogether.png");
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  height: 100%; }
